@@ -60,6 +60,7 @@ public class Biblioteca {
 
         Emprestimo emprestimo = new Emprestimo(livro, cliente.getNome(), LocalDate.now());
         emprestimos.add(emprestimo);
+        System.out.println("Empréstimo realizado com sucesso");
         return emprestimo;
     }
 
